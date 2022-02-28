@@ -1,0 +1,25 @@
+.box img{
+width: 100%;
+height: auto;
+}
+@supports(object-fit: cover){
+.box img{
+height: 100%;
+object-fit: cover;
+object-position: center center;
+}
+}
+
+.foto1 { padding: 26px; margin: 21px; float: left; width: 300px; }
+.foto2 { padding: 26px; margin: 21px; float: left; width: 300px; }
+.foto3 { padding: 20px; margin: 20px; float: left; width: 360px; }
+
+.titulos {text-align: center}
+.titulos3 { text-align : left}
+
+.h { color: #ffffff; }
+
+.productos{ background-color : #FFF0C6 ;}
+.redes{ background-color: #C7AC73 ;}
+.contactenos{ background-color : #FFF0C6 ;}
+.final{ background-color : #C7AC73;}
